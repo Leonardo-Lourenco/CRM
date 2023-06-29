@@ -1,0 +1,25 @@
+
+
+-  CRM   -  CANAL COFFEE TAG  - BY LEO
+
+TodoList
+
+- Criando um ambiente virtual, instalar o Django e criar o Projeto
+- Templates
+    - APP para as Páginas ( name core )
+    - Criar a pasta de Templates, criar os Templates ( Menu e Footer)
+    - Configurar o CSS  (https://tailwindcss.com/   ==  https://tailwindcss.com/docs/installation), vamos usar o Framework Tail...
+    - Criar a Home da Aplicação 
+    - Criar página Sobre
+
+
+
+- Autenticação de usuários
+- Criar o Dashboard
+- Criar o Leads
+- Alterar e Deletar os Leads
+- Converter os Leads em Clientes
+- Mudar e Deletar os Clientes
+- Imprementar soluções para o Time
+- Imprementar soluções de pagamentos
+- Deploy
