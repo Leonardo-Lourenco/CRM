@@ -4,17 +4,28 @@
 
 TodoList
 
-- Criando um ambiente virtual, instalar o Django e criar o Projeto
-- Templates
+- Criando um ambiente virtual, instalar o Django e criar o Projeto (CRMYOUTUBE)
+
     - APP para as Páginas ( name core )
     - Criar a pasta de Templates, criar os Templates ( Menu e Footer)
     - Configurar o CSS  (https://tailwindcss.com/   ==  https://tailwindcss.com/docs/installation), vamos usar o Framework Tail...
+    - Criar a Base da Aplicação 
     - Criar a Home da Aplicação 
     - Criar página Sobre
 
 
 
-- Autenticação de usuários
+- Autenticação de usuários  ( criar a APP )
+
+    - Criar o Banco de Dados ( Model), após isso comando makemigration e migrate
+    - criar o superuser nome: leo, pass: 123456
+    - Página Sign Up
+    - Página Log in
+    - Página Log Out
+
+
+
+
 - Criar o Dashboard
 - Criar o Leads
 - Alterar e Deletar os Leads

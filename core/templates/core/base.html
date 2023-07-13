@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
 
+  <title> {% block title %}{%endblock%}  </title>
+
 </head>
 <body>
 
@@ -14,14 +16,19 @@
 
         <a href="/" class="text-white"> Bem-Vindos CRM </a>
 
-        <div>
+        <div class="space-x-4">
 
+            <a href="{% url 'sobre' %}" class="text-white"> Sobre</a>
             <a href="/" class="py-4 px-6 bg-blue-600 rounded-xl text-white underline ">Entrar</a>
             <a href="/" class="py-4 px-6 bg-blue-400 rounded-xl text-white ">Cadastrar</a>
 
         </div>
 
     </nav>
+
+    {% block content %}
+
+    {% endblock content %}
 
     <footer class="py-8 text-center bg-gray-200">
 
