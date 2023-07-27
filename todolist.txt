@@ -15,11 +15,13 @@ TodoList
 
 
 
-- Autenticação de usuários  ( criar a APP )
+- Autenticação de usuários  ( criar a APP nome: userprofile)
 
     - Criar o Banco de Dados ( Model), após isso comando makemigration e migrate
     - criar o superuser nome: leo, pass: 123456
-    - Página Sign Up
+    - Views
+    - Página Sign Up ( Cadastrar )
+    - Urls ( app: userprofile )
     - Página Log in
     - Página Log Out
 
