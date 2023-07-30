@@ -25,6 +25,13 @@ TodoList
     - Página Log in
     - Página Log Out
 
+    OBS Configurar isso no settings : 
+            LOGIN_REDIRECT_URL = 'dashboard'
+            LOGIN_URL = 'login'
+            LOGIN_REDIRECT_URL = 'index'
+
+    - 
+
 
 
 
