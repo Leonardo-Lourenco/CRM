@@ -32,10 +32,14 @@ TodoList
 
     - 
 
+- Criar o Dashboard  (criar a APP nome: dashboard )
+
+    - Criar os Templates
+    - Criar o arquivo URLs ( dentro da dashboard)
+    - Depois usar o include e incluir as URLs do app dashboard no app principal URLS do CRM
+    - 
 
 
-
-- Criar o Dashboard
 - Criar o Leads
 - Alterar e Deletar os Leads
 - Converter os Leads em Clientes
