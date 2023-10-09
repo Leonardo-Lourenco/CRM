@@ -40,10 +40,9 @@ TodoList
     - 
 
 
-- Criar o Leads
-- Alterar e Deletar os Leads
-- Converter os Leads em Clientes
-- Mudar e Deletar os Clientes
-- Imprementar soluções para o Time
-- Imprementar soluções de pagamentos
-- Deploy
+- Criar o Leads  (criar a APP nome: lead )
+
+    - Databases Model (models.py)
+    - Views / Forms 
+    - Listar os Leads
+    - Tempaltes para os Leads
