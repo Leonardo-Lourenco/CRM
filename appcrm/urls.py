@@ -21,14 +21,16 @@ from django.contrib.auth import views
 
 from core.views import index, sobre
 from userprofile.views import signup
+from lead.views import add_lead
 
 urlpatterns = [
 
     path('', index, name='index'),
     path('sobre/', sobre, name='sobre'),
-    path('signup/', signup, name='signup'),
-    path('login/', views.LoginView.as_view(template_name='userprofile/login.html'),name='login'),
-    path('logout/', views.LogoutView.as_view(),name='logout'),
+    path('signup/', signup, name='signup'), # APP USERPROFILE
+    path('login/', views.LoginView.as_view(template_name='userprofile/login.html'),name='login'), # APP USERPROFILE
+    path('logout/', views.LogoutView.as_view(),name='logout'), # APP USERPROFILE
     path('admin/', admin.site.urls),
-    path('dashboard/', include('dashboard.urls')),
+    path('dashboard/', include('dashboard.urls')), #APP DASHBOARD
+    path('dashboard/leads/', include('lead.urls')),  # APP LEAD
 ]

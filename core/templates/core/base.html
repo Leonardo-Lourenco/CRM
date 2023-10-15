@@ -23,6 +23,8 @@
             {% if request.user.is_authenticated %}
 
                 <a href="{% url 'dashboard' %}" class="py-4 px-6 bg-blue-600 rounded-xl text-white underline ">Dashboard</a>
+                <a href="{% url 'add_lead' %}" class="py-4 px-6 bg-blue-600 rounded-xl text-white underline ">Add Lead</a>
+
                 <a href="{% url 'logout' %}" class="py-4 px-6 bg-red-600 rounded-xl text-white ">Sair</a>
 
             {% else %}

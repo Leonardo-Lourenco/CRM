@@ -18,7 +18,7 @@ TodoList
 - Autenticação de usuários  ( criar a APP nome: userprofile)
 
     - Criar o Banco de Dados ( Model), após isso comando makemigration e migrate
-    - criar o superuser nome: leo, pass: 123456
+    - criar o superuser nome: leo1, pass: 123456
     - Views
     - Página Sign Up ( Cadastrar )
     - Urls ( app: userprofile )
@@ -43,6 +43,8 @@ TodoList
 - Criar o Leads  (criar a APP nome: lead )
 
     - Databases Model (models.py)
-    - Views / Forms 
+    - makemigrations e migrate
+    - Registrar (admin.py) ir no Painel ADM
+    - Add Leads ( Views,)
     - Listar os Leads
     - Tempaltes para os Leads
