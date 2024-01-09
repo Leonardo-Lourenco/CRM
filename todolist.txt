@@ -47,5 +47,7 @@ TodoList
     - Registrar (admin.py) ir no Painel ADM
     - Add Leads ( Views,)
     - Listar os Leads
-    - Tempaltes para os Leads
+    - Templates para os Leads
     - forms.py
+    - Templates - add lead - list leads  - delete leads  - update leads  - detail leads
+    - 
